@@ -26,10 +26,14 @@ import { MatCardModule } from '@angular/material/card';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
+// componentes do projeto
+import { NavComponent } from './components/nav/nav.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavComponent
   ],
   imports: [   BrowserModule,
     AppRoutingModule,
